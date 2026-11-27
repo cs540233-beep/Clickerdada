@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ride Auto-Clicker Pro"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1A202C"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rapido, Uber અને Bharat Taxi માટે ઓટો ભાડા સ્વીકારો"
+            android:textSize="14sp"
+            android:textColor="#4A5568"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ઓછામાં ઓછું કેટલું ભાડું ઉપાડવું? (₹ માં):"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#2D3748"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etMinFare"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="દા.ત. 50"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="મહત્તમ પિકઅપ અંતર કેટલું રાખવું? (Km માં):"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#2D3748"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etMaxDistance"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="દા.ત. 3.5"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="સેટિંગ સેવ કરો"
+            android:textSize="16sp"
+            android:backgroundTint="#2B6CB0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Switch
+            android:id="@+id/switchEnable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ઓટો-ક્લિકર સર્વિસ ચાલુ કરો"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnOverlayPermission"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="૧. ફ્લોટિંગ બટન પરમિશન આપો"
+            android:textSize="15sp"
+            android:backgroundTint="#D69E2E"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnOpenAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="૨. Accessibility પરમિશન આપો"
+            android:textSize="15sp"
+            android:backgroundTint="#38A169"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
